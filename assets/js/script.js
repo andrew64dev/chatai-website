@@ -24,7 +24,7 @@ function invite() {
 document.addEventListener('DOMContentLoaded', () => {
 
   var script = document.createElement('script');
-  script.src = 'http://ro05.pylex.xyz:10451/api/counts?callback=handleResponse';
+  script.src = '//ro05.pylex.xyz:10451/api/counts?callback=handleResponse';
   document.body.appendChild(script);
   var script_cmds = document.createElement('script');
   script_cmds.src = 'http://ro05.pylex.xyz:10451/api/cmds?callback=handleResponseCmds';
